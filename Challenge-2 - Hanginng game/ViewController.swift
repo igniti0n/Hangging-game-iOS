@@ -54,10 +54,7 @@ class ViewController: UIViewController {
         
         life = UIProgressView(progressViewStyle: .default)
         life.translatesAutoresizingMaskIntoConstraints = false
-        life.progress = 1
-        life.layer.borderWidth = 2
-        life.layer.borderColor = UIColor.lightGray.cgColor
-        
+        life.progress = 1.0
         view.addSubview(life)
         
         let buttonsView = UIView()
